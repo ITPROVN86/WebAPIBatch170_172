@@ -20,8 +20,8 @@ namespace EmployeeService
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-            config.Formatters.JsonFormatter.SupportedMediaTypes   // Thêm vào
-   .Add(new MediaTypeHeaderValue("text/html"));
+   //         config.Formatters.JsonFormatter.SupportedMediaTypes   // Thêm vào
+   //.Add(new MediaTypeHeaderValue("text/html"));
 
         }
     }
